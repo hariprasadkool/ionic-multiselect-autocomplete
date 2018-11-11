@@ -1,3 +1,17 @@
 page-home {
+    
+    ionic-selectable{
+        max-width: 100% !important;
+    }
+    .ionic-selectable-value-item:not(:last-child) {
+        margin-bottom: 0px !important;
+    }
 
+    .ionic-selectable-value-item {
+       display: inline-block !important;
+       padding: 5px !important;
+       border: 1px solid grey;
+       border-radius: 25px;
+       margin: 0px 2px;
+    }
 }

@@ -11,13 +11,16 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { IonicSelectableComponent } from '../components/ionic-selectable/ionic-selectable.component';
+
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    IonicSelectableComponent
   ],
   imports: [
     BrowserModule,
