@@ -14,4 +14,10 @@
     Take a look at the <code>src/pages/</code> directory to add or change tabs,
     update any existing page or create new pages.
   </p> -->
+  <ion-item>
+    <ion-label>Port</ion-label>
+    <ionic-selectable name="dd" [(ngModel)]="port" [items]="ports" itemValueField="id" itemTextField="name" [canSearch]="true"
+      (onChange)="portChange($event)" [isMultiple]="true">
+    </ionic-selectable>
+  </ion-item>
 </ion-content>
